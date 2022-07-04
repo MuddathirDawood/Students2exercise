@@ -10,8 +10,8 @@ const app = Vue.createApp({
             if (this.age < 17){
                 alert('you have to enter your details.');
             } else {
-                if (this.name = ''){
-                    alert('yo')
+                if (this.name = ' '){
+                    alert('Please enter your name')
                 } else {
                     document.querySelector('#output').innerHTML = `${this.name} ${this.age}`
                 }
